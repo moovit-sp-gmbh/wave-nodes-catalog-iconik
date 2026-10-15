@@ -1,10 +1,10 @@
 [
   {
     "version": "1.0.0",
-    "date": "2024-09-04",
+    "date": "2026-10-15",
     "changes": [
       {
-        "description": "For your first release, just update the date above and rename this line to 'Initial release'",
+        "description": "Initial release",
         "type": "Features",
         "breaking": false
       }
