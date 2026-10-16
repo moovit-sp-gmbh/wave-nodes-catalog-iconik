@@ -1,5 +1,66 @@
 [
   {
+    "version": "1.1.0",
+    "date": "2026-10-16",
+    "changes": [
+      {
+        "description": "Add Get Asset node: reads an asset with its status and, optionally, its collections",
+        "type": "Features",
+        "breaking": false
+      },
+      {
+        "description": "Add Update Asset node: changes the basic fields of an asset and leaves empty fields unchanged",
+        "type": "Features",
+        "breaking": false
+      },
+      {
+        "description": "Add Delete Asset node: moves assets to the Iconik delete queue, 100 per request, where they can be restored",
+        "type": "Features",
+        "breaking": false
+      },
+      {
+        "description": "Add Get Metadata node: reads the metadata of an asset or collection for one view as a simple object",
+        "type": "Features",
+        "breaking": false
+      },
+      {
+        "description": "Add Set Metadata node: writes metadata values to an asset or collection through a metadata view",
+        "type": "Features",
+        "breaking": false
+      },
+      {
+        "description": "Add Search node: searches assets and collections by text and filter, one page or all up to 10,000",
+        "type": "Features",
+        "breaking": false
+      },
+      {
+        "description": "Add Create Collection node: creates a collection at root level or in a parent, or returns the existing one",
+        "type": "Features",
+        "breaking": false
+      },
+      {
+        "description": "Add Add to Collection node: adds assets or collections to a collection and reports single failures",
+        "type": "Features",
+        "breaking": false
+      },
+      {
+        "description": "Add List Collection Contents node: lists the assets and sub-collections of a collection",
+        "type": "Features",
+        "breaking": false
+      },
+      {
+        "description": "Add Get Original Download URL node: returns a temporary download URL for an asset's original file",
+        "type": "Features",
+        "breaking": false
+      },
+      {
+        "description": "Add Upload File node: uploads a local file to Iconik as a new asset and starts proxy and keyframe generation",
+        "type": "Features",
+        "breaking": false
+      }
+    ]
+  },
+  {
     "version": "1.0.0",
     "date": "2026-10-15",
     "changes": [
