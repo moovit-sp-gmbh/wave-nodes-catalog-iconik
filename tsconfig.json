@@ -105,5 +105,7 @@
         /* Completeness */
         // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
         "skipLibCheck": true /* Skip type checking all .d.ts files. */
-    }
+    },
+    /* The blueprint's stream test framework does not compile as shipped, and bundle.js is build output; keep both out of the type check. */
+    "exclude": ["node_modules", "tests/framework", "bundle.js"]
 }
